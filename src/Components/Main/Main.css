@@ -1,0 +1,30 @@
+.main_container h1
+{
+    margin: 2rem 0;
+    text-align: center;
+}
+.main_container h1::after
+{
+    display: block;
+    height: 2px;
+    width: 50%;
+    content: "";
+    background-color: black;
+    margin: 1rem auto;
+}
+
+.main
+{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.main_form
+{
+    width: 70%;
+}
+
+.main_result
+{
+    width: 30%;
+}

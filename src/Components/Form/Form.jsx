@@ -4,8 +4,8 @@ import "./Form.css"
 
 const Form = () => {
     return (
-        <div>
-            this is Form
+        <div className='form_container'>
+            <h3>Please Provide your Info:</h3>
         </div>
     );
 };
