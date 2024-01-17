@@ -8,7 +8,7 @@ import Footer from '../Footer/Footer';
 
 const Home = () => {
     return (
-        <div>
+        <div className='home'>
             <Header></Header>
             <Form></Form>
             <Result></Result>

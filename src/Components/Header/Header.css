@@ -1,0 +1,42 @@
+.header
+{
+    height: 80px;
+    width: 100%;
+    background-color: darkslateblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.header h1
+{
+    color: white;
+    cursor: pointer;
+}
+.header h1:hover
+{
+    color: rebeccapurple;
+}
+
+.header ul
+{
+    display: flex;
+    gap: 3rem;
+    font-size: 1.4rem;
+    list-style: none;
+}
+
+.header ul li
+{
+    color: white;
+    padding: .8rem 1rem;
+    border: 2px solid orange;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header ul li:hover
+{
+background-color: lightslategrey;
+}
